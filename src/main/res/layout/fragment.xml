@@ -1,0 +1,51 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/secondpage"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.busloco.BlankFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="@string/source_stop"
+        android:id="@+id/textView2"
+        android:layout_gravity="left|top"
+        android:layout_marginTop="40dp"
+        android:textSize="20dp" />
+
+    <!--<Spinner
+        android:layout_width="282dp"
+        android:layout_height="130dp"
+        android:id="@+id/spinner"
+        android:layout_gravity="center_horizontal|top"
+        android:entries="@+id/bus_stop_names"
+        android:layout_marginTop="70dp" /> -->
+
+    <TextView
+        android:layout_width="329dp"
+        android:layout_height="51dp"
+        android:text="@string/destination_stop"
+        android:id="@+id/textView3"
+        android:layout_gravity="left|center_vertical"
+        android:textSize="20dp" />
+
+    <!--<Spinner
+        android:layout_width="282dp"
+        android:layout_height="110dp"
+        android:id="@+id/spinner2"
+        android:entries="@+id/bus_stop_names"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="110dp" /> -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proceed"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="50dp" />
+
+</FrameLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">tester</string>
+    <string name="action_settings">Settings</string>
+    <string name="destination_stop">abndkjflakr</string>
+    <string name="source_stop">;56ojy5ie</string>
+    <string-array name="bus_stop_names">
+        <item>ffrfj;rofkrw</item>
+        <item> jfnkm;kfmm</item>
+    </string-array>
+</resources>
